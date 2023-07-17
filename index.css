@@ -1,0 +1,74 @@
+/* Paleta de cores
+1- 8, 6, 15
+2- 43, 48, 59
+3- 117, 54, 37
+4- 199, 69, 26 */
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;  
+}
+body{
+   background-image: url(imagens/imagem1.1.jpg);
+   background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+}
+main{ 
+    padding-top: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    padding: 10px;
+    margin: 20px 0px 20px;
+    width: 400px;
+
+}
+#formulario{
+    background-color: rgba(46, 45, 45, 0.679);
+    border-radius: 5px;
+    box-shadow: none;
+    width: 500px;
+    height: 300px;
+    
+}
+input{
+    width: 50%;
+    height: 20px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2px;
+}
+button{
+    display: block;
+    margin-left: 130px;
+    font-size: 1em;
+    width: 50%;
+    height: 40px;
+    background-color:rgb(77, 58, 146 )  ;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(68, 32, 64);
+}
+a{
+    padding-top: 10px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
